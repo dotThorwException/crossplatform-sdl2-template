@@ -1,0 +1,9 @@
+[submodule "extern/include/SDL2"]
+	path = extern/include/SDL2
+	url = https://github.com/dotThorwException/sdl2-win32-headers
+[submodule "extern/include/GL"]
+	path = extern/include/GL
+	url = https://github.com/dotThorwException/glew-win32-headers
+[submodule "extern/lib"]
+	path = extern/lib
+	url = https://github.com/dotThorwException/win32-sdl-glew-lib-files.git
