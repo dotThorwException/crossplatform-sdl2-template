@@ -24,11 +24,9 @@ aux_source_directory("${CMAKE_SOURCE_DIR}/src" MANAGED_SOURCE)
 
 
 IF(WIN32)
-
 add_executable(${MY_FANCY_PROJECT_NAME} WIN32 ${MANAGED_SOURCE})
-
 ELSE()
-add_executable(${MANAGED_SOURCE})
+add_executable(${MY_FANCY_PROJECT_NAME} ${MANAGED_SOURCE})
 ENDIF()
 
 target_link_libraries(${MY_FANCY_PROJECT_NAME} SDL2 ${GLEW_LIBRARY} ${OPENGL_LIBRARY})
